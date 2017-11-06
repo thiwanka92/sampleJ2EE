@@ -63,7 +63,8 @@
                            <div class="form-group">
                                <label class="control-label" for="date_added">Date added</label>
                                <div class="input-group date">
-                                   <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" type="text" class="form-control" value="03/04/2014">
+                                   <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" 
+					 type="text" class="form-control" value="03/04/2014">
                                </div>
                            </div>
                        </div>
@@ -71,7 +72,8 @@
                            <div class="form-group">
                                <label class="control-label" for="date_modified">Date modified</label>
                                <div class="input-group date">
-                                   <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_modified" type="text" class="form-control" value="03/06/2014">
+                                   <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_modified" 
+					 type="text" class="form-control" value="03/06/2014">
                                </div>
                            </div>
                        </div>
@@ -135,7 +137,9 @@
 	           <div class="modal-content">
 			<form method="POST" class="form-horizontal">
 			       <div class="modal-header">
-				   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				   <button type="button" class="close" data-dismiss="modal">
+					   <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+				   </button>
 				   <h4 class="modal-title">Add New Customer</h4>
 			       </div>
 			       <div class="modal-body">
@@ -174,8 +178,12 @@
                                <div class="hr-line-dashed"></div>
                                <div class="form-group"><label class="col-sm-2 control-label">Gender</label>
                                    <div class="col-sm-6">
-                                       <div class="i-checks"><label> <input type="radio" checked="" value="m" name="gender"> <i></i> Male </label></div>
-                                       <div class="i-checks"><label> <input type="radio" value="f" name="gender"> <i></i> Female </label></div>
+                                       <div class="i-checks"><label> <input type="radio" checked="" value="m" name="gender"> 
+					    <i></i> Male </label>
+					</div>
+                                       <div class="i-checks"><label> <input type="radio" value="f" name="gender"> 
+					    <i></i> Female </label>
+					</div>
                                    </div>
                                </div>
 	                   	</div>
